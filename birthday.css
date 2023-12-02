@@ -1,0 +1,241 @@
+#main_heading{
+   color: black ;
+   background-image: radial-gradient(circle at center, rgb(60, 60, 60) 0, rgb(165, 165, 165), rgb(255, 255, 255) 100%);
+   padding-left: 0px;
+   position:fixed;
+   top: 0px;
+   left:0px;
+   margin: 0px;
+   height: 70px;
+   font-size: 48px;
+   font-family: monospace, sans-serif;
+   text-shadow: 4px 4px 8px #000000;
+   width: 1400px;
+   display: block;
+}
+
+.arrow-3 {
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   top: 200px;
+   left: 590px;
+   width: 0; 
+   height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid black;
+   transform: rotate(270deg);
+   z-index: -1;
+ }
+ 
+ .arrow-3:after {
+   content: "";
+   position: absolute;
+   left: 30px;
+   top: -15px;
+   width: 0; 
+   height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 60px solid black;
+}
+
+.arrow-2 {
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   top: 200px;
+   left: 400px;
+   
+   width: 0; 
+   height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid black;
+   transform: rotate(270deg);
+   z-index: -1;
+ }
+ 
+ .arrow-2:after {
+   content: "";
+   position: absolute;
+   left: 30px;
+   top: -15px;
+   width: 0; 
+   height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 60px solid black;
+}
+
+#intro{
+   margin-top: 100px;
+   font-size: 28px;
+   color: #FFF;
+   padding-top: 3px;
+   font-family: fantasy;
+}
+
+.stylish{
+   border-radius: 50px;
+   width: 650px;
+   height: 40px;
+   background-color: black;
+   text-align: center; 
+}
+
+#my_pic{
+   width: 230px;
+   position: absolute;
+   top: 255px;
+   left: 280px;
+   z-index: -1;
+   border: ridge 5px whitesmoke;
+}
+
+#anik_pic{
+   width: 190px;
+   position: absolute;
+   top: 255px;
+   left: 525px;
+   z-index: -1;
+   border: ridge 5px whitesmoke;
+}
+
+#intro2{
+   margin-top: 100px;
+   font-size: 28px;
+   color: #FFF;
+   padding-top: 3px;
+   font-family: fantasy;
+}
+
+.stylish2{
+   border-radius: 50px;
+   width: 640px;
+   height: 70px;
+   background-color: black;
+   text-align: center;
+   margin-top: 430px;
+}
+
+#mummy{
+   position: absolute;
+   width: 250px;
+   top: 690px;
+   left: 270px;
+   z-index: -2;
+   border: ridge 7px whitesmoke;
+}
+
+.arrow-1 {
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   top: 685px;
+   left: 390px;
+   width: 0; 
+   height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid black;
+   transform: rotate(270deg);
+   z-index: -1;
+ }
+ 
+ .arrow-1:after {
+   content: "";
+   position: absolute;
+   left: 30px;
+   top: -15px;
+   width: 0; 
+   height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 60px solid black;
+}
+
+#quizing{
+   margin-top: 450px;
+   font-size: 28px;
+   font-family: fantasy;
+   text-shadow: 2px 2px 5px rgb(195, 195, 195);
+   width: 650px;
+}
+
+.question{
+   font-size: 24px;
+   font-family: fantasy;
+   background-color: black;
+   color: #FFF;
+   border-radius: 40px;
+   padding-left: 20px;
+   padding-right: 15px;
+}
+
+#question1{
+   width: max-content;
+   background-color: rgb(94, 94, 94);
+}
+
+#question2{
+   width: max-content;
+   background-color: #373737;
+}
+
+#question3{
+   width: max-content;
+   background-color: #000000;
+}
+
+.option{
+   text-decoration: none;
+   margin-left: 20px;
+   font-size: 22px;
+   color: black;
+   display: block;
+   width: max-content;
+   border: groove rgb(116, 116, 116) 4px;
+   margin-bottom: 6px;
+   padding: 4px;
+}
+
+#intro3{
+   margin-top: 80px;
+   font-size: 28px;
+   font-family: fantasy;
+   text-shadow: 2px 2px 5px rgb(195, 195, 195);
+   width: 640px;
+}
+
+#anik_pic2{
+   text-decoration: none;
+   margin-left: 20px;
+   font-size: 22px;
+   color: black;
+   display: block;
+   width: max-content;
+   border: groove rgb(116, 116, 116) 4px;
+   margin-bottom: 6px;
+   padding: 4px;
+}
+
+#wish{
+   margin-top: 80px;
+   font-size: 28px;
+   font-family: fantasy;
+   text-shadow: 2px 2px 5px rgb(195, 195, 195);
+   width: 640px;
+}
+
+#anik_video{
+   border-style: double ;
+   border-width: 6px;
+   border-color: #000000;
+}
+
+
+body{
+   background-image: radial-gradient(circle at center, rgb(255, 255, 255) 0, rgb(165, 165, 165), rgb(0, 0, 0) 100%);
+}
